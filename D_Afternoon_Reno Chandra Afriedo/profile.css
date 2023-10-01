@@ -1,0 +1,127 @@
+
+#konten{
+    position: relative;
+    display: flex;
+    justify-content:left;
+}
+
+
+#image{
+    margin-left: 10%;
+    position: relative;
+}
+#image img{
+    width: 500px;
+    height: 500px;
+}
+
+#text{
+    margin: 3% 6%;
+}
+#text h1{
+    font-size: xx-large;
+    font-family: chiller;
+}
+#text p{
+    margin-top: 3%;
+    font-size: small;
+    width: 40%;
+}
+#text button{
+    margin-top: 5%;
+    padding: 2% 5%;
+    background-color: #931fa7;
+    border-style: hidden;
+    border-radius: 10px;
+    color: aliceblue;
+}
+#text button:hover{
+    background-color: #1E0023;
+    color: aliceblue;
+
+}
+#text ul{
+    margin-top: 20%;
+    margin-left: -5%;
+
+}
+
+#text ul li{
+    display: inline;
+    text-decoration: none;
+}
+
+.social{
+    margin-left: 1%;
+    width: 3%;
+    height: 3%;
+}
+
+.skill{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.titlehardskill{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    left: 0;
+    right: 0;
+    border-radius: 25px;
+    background-color: #1E0023;
+}
+.titlehardskill h1{
+    font-family: chiller;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.hardskill{
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+}
+
+.hardskillcontent{
+    width: 20%;
+    margin-top: 3%;
+    padding: 0.5% 1% 0.5% 1%;
+    border-radius: 5px;
+    background-color: #931fa7;
+    color: aliceblue;
+    text-align: center;
+}
+
+.portofoliokontenweb{
+
+    margin-top: 3%;
+    padding: 7% 8% 7% 8%;
+    border-radius: 5px;
+    background-color: #931fa7;
+    color: aliceblue;
+    text-align: center;
+}
+
+.portofoliokontenmobile{
+    margin-top: 3%;
+    padding: 15% 7% 15% 7%;
+    border-radius: 5px;
+    background-color: #931fa7;
+    color: aliceblue;
+    text-align: center;
+}
+
+footer{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    background-color: #1E0023;
+    color: aliceblue;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 5px;
+    margin-top: 5%;
+}
